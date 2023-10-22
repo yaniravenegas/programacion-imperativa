@@ -49,3 +49,15 @@ const modelo = Rio;
 const numeroSerie = VSADJFDSH6754589;
 // Finalmente confirman si se firmaron los documentos electrónicamente
 let firmaElectronica = true;
+
+//Desafío extra
+
+let cajon1 = pantalones;
+let cajon2 = remeras;
+
+let temp = cajon1;
+cajon1 = cajon2;
+cajon2 = temp;
+
+console.log(cajon1);
+console.log(cajon2);
