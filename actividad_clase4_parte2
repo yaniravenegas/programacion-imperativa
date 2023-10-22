@@ -1,0 +1,51 @@
+//Situación cotidiana 1: Requiero solicitar un préstamo bancario
+
+//Primero debo saber si tengo el día libre para ir a hacer el trámite
+let diaLibre = true; 
+//Luego verificar que el banco está abierto
+const horaCierre = new Date();
+horaCierre.setHours(16, 0, 0, 0);
+//Si logro llegar, debo revisar que tengo dinero para el viaje
+let costoPasaje = 790;
+let montoBilletera = 1000;
+let resultado = montoBilletera - costoPasaje;
+if (resultado >= 0) {
+    console.log("Dirigirse a banco")
+} else {
+    console.log("Necesita más dinero, abortar")
+}
+//Si me alcanza para el viaje, llego al banco y debo acercarme a una ejecutiva, quien me consulta algunos datos
+let miNombre = Yanira;
+let miApellido = Venegas;
+let DNI = 20147753-0;
+//Con esa información, consulta mi capacidad crediticia
+let tieneCapacidadCrediticia = true;
+//Si tengo capacidad, me ofrece un monto 
+let montoOfrecido = 10000000;
+//Me consulta si acepto el monto
+let aceptaOferta = true;
+//Si acepto el monto, firmo los papeles e indico mi número de cuenta para el depósito
+let numeroCuenta = 20147753;
+
+
+//Situación cotidiana 2: Estoy comprando un auto y me están solicitando datos para el registro
+
+//Consultan mi nombre completo
+const nombre = Yanira;
+const segundoNombre = Valentina;
+const apellido = Venegas;
+const segundoApellido = Velásquez;
+// Luego mi edad
+let edad = 24;
+// Después, datos del modo de pago
+let piePagado = 5000000;
+let montoPorPagar = 15000000;
+let modoPago = credito;
+const numeroTarjeta = 20147753;
+let numerocuotas = 60;
+// Después, los datos del vehículo
+const marcaAuto = Kia;
+const modelo = Rio;
+const numeroSerie = VSADJFDSH6754589;
+// Finalmente confirman si se firmaron los documentos electrónicamente
+let firmaElectronica = true;
