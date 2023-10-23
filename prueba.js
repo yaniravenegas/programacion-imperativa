@@ -142,6 +142,4 @@ Operador de negación
 !!"" = false. Una cadena de texto vacía ("") se considera falso en contexto booleano.
 !"" = true. La negación de una cadena de texto vacía es verdadera.
 
-
-
 */

@@ -15,9 +15,9 @@ if (resultado >= 0) {
     console.log("Necesita más dinero, abortar")
 }
 //Si me alcanza para el viaje, llego al banco y debo acercarme a una ejecutiva, quien me consulta algunos datos
-let miNombre = Yanira;
-let miApellido = Venegas;
-let DNI = 20147753-0;
+let miNombre = "Yanira";
+let miApellido = "Venegas";
+let DNI = "20147753-0";
 //Con esa información, consulta mi capacidad crediticia
 let tieneCapacidadCrediticia = true;
 //Si tengo capacidad, me ofrece un monto 
@@ -31,29 +31,29 @@ let numeroCuenta = 20147753;
 //Situación cotidiana 2: Estoy comprando un auto y me están solicitando datos para el registro
 
 //Consultan mi nombre completo
-const nombre = Yanira;
-const segundoNombre = Valentina;
-const apellido = Venegas;
-const segundoApellido = Velásquez;
+const nombre = "Yanira";
+const segundoNombre = "Valentina";
+const apellido = "Venegas";
+const segundoApellido = "Velásquez";
 // Luego mi edad
 let edad = 24;
 // Después, datos del modo de pago
 let piePagado = 5000000;
 let montoPorPagar = 15000000;
-let modoPago = credito;
+let modoPago = "credito";
 const numeroTarjeta = 20147753;
 let numerocuotas = 60;
 // Después, los datos del vehículo
-const marcaAuto = Kia;
-const modelo = Rio;
-const numeroSerie = VSADJFDSH6754589;
+const marcaAuto = "Kia";
+const modelo = "Rio 5";
+const numeroSerie = "VSADJFDSH6754589";
 // Finalmente confirman si se firmaron los documentos electrónicamente
 let firmaElectronica = true;
 
 //Desafío extra
 
-let cajon1 = pantalones;
-let cajon2 = remeras;
+let cajon1 = "pantalones";
+let cajon2 = "remeras";
 
 let temp = cajon1;
 cajon1 = cajon2;
