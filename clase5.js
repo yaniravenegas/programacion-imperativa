@@ -32,7 +32,7 @@ const imc = calculadorIMC(peso, altura);
 console.log("Su Índice de Masa Corporal (IMC) es: " + imc);
 */
 
-const prompt = require("prompt-sync")({ sigint: true });
+/* const prompt = require("prompt-sync")({ sigint: true });
 
 let input = prompt("Ingrese su string en minúsculas: ");
 
@@ -40,4 +40,4 @@ function textoMayusculas (input) {
     return input.toUpperCase();
 }
 
-console.log("Resultado: "+textoMayusculas(input))
+console.log("Resultado: "+textoMayusculas(input)); */
