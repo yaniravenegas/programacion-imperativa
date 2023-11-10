@@ -1,7 +1,7 @@
 
 //Integración de contenido:
 
-Integrantes:
+//Integrantes:
 //Juan Manuel Delgado Vela
 //Max Aguilar
 //Vilma Rossana Nieto Gonzalez
