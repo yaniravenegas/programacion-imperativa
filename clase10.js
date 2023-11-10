@@ -1,6 +1,14 @@
 
 //Integración de contenido:
 
+Integrantes:
+//Juan Manuel Delgado Vela
+//Max Aguilar
+//Vilma Rossana Nieto Gonzalez
+//Yanira Venegas
+//Laura Valentina Carvajal
+
+
 //1) Crear un array llamado misMascotas
 
 
