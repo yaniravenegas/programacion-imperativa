@@ -18,7 +18,7 @@ function encontrarMultiplos (numero, limite) {
     } return multiplos;
 }
 
-console.log(encontrarMultiplos(2, 10)); */
+console.log(encontrarMultiplos(5, 50)); */
 
 /* 
 Punto 2: Arreglos y Objetos
