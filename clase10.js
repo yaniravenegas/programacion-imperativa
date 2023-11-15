@@ -11,6 +11,7 @@
 
 //1) Crear un array llamado misMascotas
 
+//let misMascotas = [];
 
 /* 2) Dentro de este array crearemos un objeto literal para cada mascota. Cada objeto deberá tener: 
     nombre
@@ -66,13 +67,10 @@ console.log(misMascotas[2].retornarSonido()); */
 /* function aumentarEdad (misMascotas) {
     for (let i = 0; i < misMascotas.length; i++) {
        let nuevasEdades = misMascotas[i].edad++;
-    }
+    } return misMascotas
 }
 
-aumentarEdad(misMascotas);
-console.log(misMascotas[0].edad);
-console.log(misMascotas[1].edad);
-console.log(misMascotas[2].edad); */
+console.log(aumentarEdad(misMascotas)); */
 
 /* 4) Ahora debemos crear otra función, que se llame  aumentarEdad2, que va a hacer un trabajo más fino:
     Si la mascota tiene menos de 6 años, debe aumentar su edad en 1
@@ -100,14 +98,13 @@ console.log(misMascotas[2].edad); */
 
 //5) Ahora crearemos una función que va a generar un identificador (ID) en cada objeto, que será secuencial y que empezará en 1.
 
-/* function agregarId (misMascotas) {
+function agregarId (misMascotas) {
     for (let i = 0; i < misMascotas.length; i++) {
         misMascotas[i].id = i+1;
-        }
+        } return misMascotas
     }
 
-agregarId(misMascotas);
-console.log(misMascotas); */
+console.log(agregarId(misMascotas));
 
 /* Nuevo Arreglo
 Debés crear una función llamada `nuevoArreglo` que reciba un número como parámetro y que devuelva un nuevo arreglo con 
@@ -130,7 +127,7 @@ Debés crear una función llamada loopDePares que reciba como parámetro un núm
 mostrando en la consola cada número del loop. En caso de que el número de la iteración sumado con el número pasado por parámetro,
 sea par, mostrá en la consola “El número x es par”.*/
 
-function loopDePares (numero) {
+/* function loopDePares (numero) {
     for (let i = 0; i <= 100; i++) {
         let numero2 = i + numero;
         if (numero2 % 2 === 0) {
@@ -141,4 +138,4 @@ function loopDePares (numero) {
     }
 }
 
-loopDePares(90);
+loopDePares(90); */
